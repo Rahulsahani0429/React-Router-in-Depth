@@ -48,11 +48,13 @@ export default App;
 // we can cleaner way to write the above code by creating a separate file for all the routes and then importing that file here in App.jsx
 
 import AllRoutes from "./AllRoutes";
+import Register from "./Register";
 
 function App() {
   return (
     <>
       <AllRoutes />
+      <Register />
     </>
   );
 }
