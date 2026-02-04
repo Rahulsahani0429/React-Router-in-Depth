@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(191, 232, 118);
+  padding: 10px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.logo h1 {
+  color: rgb(235, 115, 115);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+}
+ul {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  width: 300px;
+}
+ul li .link {
+  text-decoration: none;
+  color: white;
+
+  font-size: 20px;
+}
+
+.college .link {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(174, 17, 17);
+  /* padding: 5px; */
+  /* gap: 10px; */
+  font-weight: bold;
+  padding: 7px;
+}
